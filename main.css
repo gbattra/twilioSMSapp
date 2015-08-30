@@ -1,0 +1,161 @@
+.wrapper {
+
+	width:40em;
+	height: 6em;
+	margin: auto;
+	margin-top: 5%;
+
+}
+
+.mainBody {
+	
+	text-align:center;
+	width:40em;
+	height: 6em;
+	background-color: white;
+	opacity: .8;
+	border-radius: 10px;
+}
+
+.inputBox {
+	width: 69.5%;
+	height: 100%;
+	float: left;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.divider {
+	position: absolute;
+	height: 3.5em;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #2C5577;
+
+	margin-left: 5em;
+	margin-top: 1.3em;
+
+
+	opacity: .4;
+}
+
+.inputPlaceholder {
+	font-family: "Helvetica-Light", sans-serif;
+	font-size: 1em;
+	color: black;
+	text-align: right;
+	opacity: .4;
+	margin-top: 1.5em;
+	float: right;
+	margin-right: 23.5em;
+	position: relative;
+	width: '3.5em';
+}
+
+.inputField {
+	height: 2em;
+	width: 11em;
+	margin-top: .5em;
+	margin-left: 2.7em;
+	border:none;
+	background: transparent;
+	font-family: "Helvetica-Light", sans-serif;
+	font-size: 2em;
+	color: black;
+	text-align: left;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+}
+
+.inputBox input:focus{
+    outline: 0;
+}
+
+
+.prompt {
+	float:right;
+	width: 30%;
+	height: 100%;
+	border-left-color: #2C5577;
+	border-left-style: solid;
+	border-left-width: 1px;
+	background-color: #F37B86;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+	opacity: .6;
+}
+
+
+.promptText {
+	font-family: "Verdana", sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	margin-top: 14%;
+}
+
+.response {
+	padding-top: .5em;
+	margin: auto;
+	text-align: center;
+
+
+	visibility: hidden;
+}
+
+.responseText {
+	font-family: "Verdana",sans-serif;
+	font-size: 1.2em;
+
+	color: white;
+	opacity: .8;
+}
+
+.refresh {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	background-color: white;
+	float: right;
+
+	margin-right: -70px;
+	margin-top: -145px;
+
+	border-radius: 100%;
+
+	background-image: url('https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_19-512.png');
+	background-size: contain;
+
+	opacity: .4;
+
+	cursor: pointer;
+}
+
+.refreshText {
+	display: inline-block;
+	color: white;
+	float: right;
+
+	font-family: "Verdana",sans-serif;
+	font-size: 1.2em;
+
+	margin-right: -145px;
+	margin-top: -135px;
+
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
